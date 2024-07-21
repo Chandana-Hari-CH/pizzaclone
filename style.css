@@ -1,0 +1,112 @@
+.div{
+    margin-top: 20px;
+    margin-right: 0;
+    cursor: pointer;
+    margin-left: 100px;
+    padding-left: 100px;
+}
+.div h5{
+    right: 20px;
+    padding-left: 690px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    font-weight: lighter;
+}
+.div h5:hover{
+ font-weight: normal;
+}
+.div1{
+    background-image: url();
+    height: 400px;
+    
+}
+.div11 {
+    position: relative;
+}
+
+.div12 {
+    position: absolute;
+    bottom: 50px; /* Adjust as needed to move up or down */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 3px; /* Adjust gap between text boxes */
+    cursor: pointer;
+}
+
+ .text-box {
+    background-color: rgb(255, 255, 255); /* Adjust color and opacity as needed */
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+#deliveryContent, #collectContent {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed to align with text-box */
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; /* Adjust width as needed */
+    z-index: 1000; /* Ensure it's on top of other content */
+}
+hr {
+    border: 0;
+    border-top: 1px solid #000; /* Change color as needed */
+    margin: 0; /* Remove default margin */
+}
+
+.text-center {
+    text-align: center;
+    font-size: 40px;
+}
+.row{
+    padding-top: 250px;
+    margin-top: 250px;
+}
+.col-6 img{
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.btn{
+    margin-left: 24px;
+    padding-left: 50px;
+    align-items: center;
+    width: 1250px;
+    height: 50px;
+}
+.div4{
+    background-color: #000 ;
+}
+.col-2{
+    color: aliceblue;
+}
+.row4 h3{
+    font-size: 25px;
+}
+.row4 li{
+    font-size: 15px;
+}
+
+.app-store-box {
+    border: 1px solid #ddd;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 0;
+}
+.app-store-box img {
+    width: 70px; /* Adjust icon size as needed */
+    height: auto;
+    
+}
+.btt{
+    width: 200px;
+}
+
+
+
+
+
+
+
